@@ -1,0 +1,203 @@
+
+[
+{
+"success": true,
+"data": {
+"basicinfo": {
+"firstName": "Jhon ",
+"lastName": "Doe",
+"email": "jhondoe@gmail.com",
+"designation": "Software Developer",
+"city": "Noida",
+"state": "Uttar pradesh",
+"pincode": "814112",
+"date_of_birth":"03/25/1980",
+"phone": "111-222-1111",
+"profile_pic": "https://as2.ftcdn.net/v2/jpg/03/64/21/11/1000_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg",
+"intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue dapibus est, a sagittis risus congue a.",
+"_id": "63ea7119c230a228cddb6dfa",
+"parent_user_id": "63e600ee52d7d41239a82880",
+"resume_id": "63ea707dc230a228cddb6df4",
+"createdAt": "2023-02-13T17:19:21.977Z",
+"updatedAt": "2023-02-13T17:19:21.977Z",
+"__v": 0
+},
+"resume_objective": {
+    "objective": "Well organized, creative and a strong problem solver with outstanding organizational, analytical and decision-making skills. Excellent planning skills in setting and achieving goals, including meeting tight deadlines. High intellectual capacity to learn, retain and apply new concepts of varying complexity. Cooperative and helpful team participant, with ability to think and work well independently. Systematic, logical thinker, able to compartmentalize program aspects and build integrative systems."
+    },
+
+"professionalexperience": [
+{
+"_id": "63ea7156c230a228cddb6dff",
+"parent_user_id": "63e600ee52d7d41239a82880",
+"resume_id": "63ea707dc230a228cddb6df4",
+"designation": "Software Developer",
+"organisation": "Google Inc  - Gurugram",
+"currently_working": false,
+"about_com": "This was my first job and first job was an always special for all people . In this company,I learned how to build website at industry level .",
+"start_date": "15/03/2016",
+"end_date": "28/04/2019",
+"createdAt": "2023-02-13T17:20:22.986Z",
+"updatedAt": "2023-02-13T17:20:22.986Z",
+"__v": 0
+},
+{
+"_id": "63ea7182c230a228cddb6e04",
+"parent_user_id": "63e600ee52d7d41239a82880",
+"resume_id": "63ea707dc230a228cddb6df4",
+"designation": "Software Developer",
+"organisation": "Microsoft -Hydrabad",
+"currently_working": true,
+"about_com": "That was my second job and it was an amazing experience for me . I have learnt so many things from this companyu.I am grateful to them . ",
+"start_date": "11/05/2019",
+"end_date": "28/12/2022",
+"createdAt": "2023-02-13T17:21:06.236Z",
+"updatedAt": "2023-02-13T17:21:06.236Z",
+"__v": 0
+}
+],
+"education": [
+{
+"_id": "63ea71aac230a228cddb6e09",
+"parent_user_id": "63e600ee52d7d41239a82880",
+"resume_id": "63ea707dc230a228cddb6df4",
+"class": "B tech in CSE",
+"place":"Kolkata",
+"college": "Heritage insititute of technology",
+"currently_study": false,
+"about_college": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue dapibus est, a sagittis risus congue a.",
+"start_date": "10/08/2016",
+"end_date": "21/05/2021",
+"createdAt": "2023-02-13T17:21:46.944Z",
+"updatedAt": "2023-02-13T17:21:46.944Z",
+"__v": 0
+},
+{
+"_id": "63ea71e2c230a228cddb6e0e",
+"parent_user_id": "63e600ee52d7d41239a82880",
+"resume_id": "63ea707dc230a228cddb6df4",
+"class": "12 th ICSE",
+"place":"New Delhi",
+"college": "ICSE",
+"currently_study": false,
+"about_college": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue dapibus est, a sagittis risus congue a.",
+"start_date": "07/05/2011",
+"end_date": "11/08/2015",
+"createdAt": "2023-02-13T17:22:42.079Z",
+"updatedAt": "2023-02-13T17:22:42.079Z",
+"__v": 0
+}
+],
+"projects": [
+{
+"_id": "63ea72b4c230a228cddb6e13",
+"parent_user_id": "63e600ee52d7d41239a82880",
+"resume_id": "63ea707dc230a228cddb6df4",
+"project": "Ashley Homestore",
+"organisation": "Remote Circle",
+"Livesite":"https://furniture-reseal.web.app/",
+"project_detail": "This is a furniture reseal website,which provides some second hand products.",
+"createdAt": "13/9/2022",
+"updatedAt": "17/10/2022",
+"__v": 0
+},
+{
+"_id": "63ea72c4c230a228cddb6e18",
+"parent_user_id": "63e600ee52d7d41239a82880",
+"resume_id": "63ea707dc230a228cddb6df4",
+"project": "Tanu Eye Care",
+"organisation": "Pangian",
+"project_detail": "This is a eye disease service website , which provides some eye related solution.",
+"createdAt": "7/1/2023",
+"updatedAt": "5/2/2023",
+"__v": 0
+}
+],
+"interpersonal_skills": {
+    "_id": "63ea72d0c230a228cddb6e2d",
+    "parent_user_id": "63e600ee52d7d41239a85880",
+    "resume_id": "63ea707dc230a228cddb6gf4",
+    "interpersonal_skills": [
+    {
+        "_id": "63ea72d0c230a228cddb6e1g",
+        "title": "Communication",
+        "value":"100"
+    },
+    {
+        "_id": "63ea72d0c230a228cddb6e1g",
+        "title": "Team Work",
+        "value":"70"
+    },
+    {
+    "_id": "63ea72d0c230a228cddb6e1e",
+    "title": "Detail-oriented",
+    "value":"80"
+    },
+    {
+    "_id": "63ea72d0c230a228cddb6e1f",
+    "title": "Multitasking",
+    "value":"80"
+    },
+    {
+    "_id": "63ea72d0c230a228cddb6e20",
+    "title": "Team Management",
+    "value":"75"
+    },
+    {
+        "_id": "63ea72d0c230a228cddb6e21",
+    "title": "Problem Solving",
+    "value":"75"
+    }
+    ],
+    "createdAt": "2023-02-13T17:26:40.790Z",
+    "updatedAt": "2023-02-13T17:26:40.790Z",
+    "__v": 0
+    },
+"skills": {
+"_id": "63ea72d0c230a228cddb6e1d",
+"parent_user_id": "63e600ee52d7d41239a82880",
+"resume_id": "63ea707dc230a228cddb6df4",
+"skills": [
+{
+    "_id": "63ea72d0c230a228cddb6e1g",
+    "title": "React JS",
+    "value":"85"
+},
+
+{
+"_id": "63ea72d0c230a228cddb6e1e",
+"title": "Node JS",
+"value":"40"
+},
+{
+"_id": "63ea72d0c230a228cddb6e1f",
+"title": "Express JS",
+"value":"65"
+},
+{
+"_id": "63ea72d0c230a228cddb6e20",
+"title": "MongoDB",
+"value":"80"
+}
+
+],
+"createdAt": "2023-02-13T17:26:40.790Z",
+"updatedAt": "2023-02-13T17:26:40.790Z",
+"__v": 0
+},
+"social": {
+"github": "https://github.com/Tanushri-Das",
+"skype": "https://skype.com/id",
+"website": "codemon.in",
+"linkedin": "https://www.linkedin.com/in/tanushri-das/",
+"_id": "63ea7304c230a228cddb6e25",
+"parent_user_id": "63e600ee52d7d41239a82880",
+"resume_id": "63ea707dc230a228cddb6df4",
+"createdAt": "2023-02-13T17:27:32.560Z",
+"updatedAt": "2023-02-13T17:27:32.560Z",
+"__v": 0
+}
+},
+"message": "All the best!"
+}
+]
