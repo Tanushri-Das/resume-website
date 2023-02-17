@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaBong, FaBowlingBall, FaExpand, FaPortrait, FaRProject } from 'react-icons/fa'
+import { FaBong, FaBowlingBall, FaExpand, FaPortrait, FaRProject, FaTable } from 'react-icons/fa'
 import Projects from '../Projects/Projects'
 import Skills from '../ComputerSkills/ComputerSkills'
 import Social from '../Social/Social'
@@ -25,7 +25,7 @@ const RightSide = ({data}) => {
        
        </div>
        {/* style={{marginLeft:'40px'}} */}
-       <div style={{marginLeft:'40px'}}>
+       <div>
         {/*  style={{border:'1px solid blue'}} */}
         <div className='flex items-center'>
         <FaRProject style={{float:'left',fontSize:'14px',marginRight:'6px'}} className="text-blue-500"/>
@@ -33,9 +33,7 @@ const RightSide = ({data}) => {
         </div>
 
         <div style={{marginLeft:'20px'}} className="text-left">
-          {/* {
-            data?.data?.projects?.map(project=><Projects project={project}></Projects>)
-          } */}
+         
           <h6 style={{fontSize:'9px',marginBottom:'3px'}} className="font-normal">{project2.createdAt} - {project2.updatedAt}</h6>
           <h6 style={{fontSize:'9px',marginBottom:'3px'}}>{project2.project}</h6>
           <h6 style={{fontSize:'9px',marginBottom:'3px'}} className="font-normal">{project2.organisation}</h6>
@@ -44,10 +42,10 @@ const RightSide = ({data}) => {
        
        </div>
        {/* marginLeft:'40px', */}
-       <div style={{marginLeft:'40px',marginTop:"34px"}}>
+       <div style={{marginTop:"61px"}}>
        {/*  style={{border:'1px solid blue'}} */}
       <div className='flex items-center'>
-        <FaBong style={{float:'left',fontSize:'14px',marginRight:'6px'}} className="text-blue-500"/>
+        <FaTable style={{float:'left',fontSize:'14px',marginRight:'6px'}} className="text-blue-500"/>
         <p className='text-blue-500' style={{fontSize:'14px',fontWeight:'600',marginTop:'14px'}}>Interpersonal Skills</p>
         </div>
         <div className='grid grid-cols-3 justify-center items-center'>
@@ -58,7 +56,7 @@ const RightSide = ({data}) => {
        
        </div>
        {/* marginLeft:'40px', */}
-       <div style={{marginLeft:'40px',marginTop:"60px"}}>
+       <div style={{marginTop:"59px"}}>
        {/*  style={{border:'1px solid blue'}} */}
       <div className='flex items-center'>
         <FaBong style={{float:'left',fontSize:'14px',marginRight:'6px'}} className="text-blue-500"/>
@@ -76,7 +74,7 @@ const RightSide = ({data}) => {
        
        </div>
        {/* marginLeft:'40px' */}
-       <div style={{marginLeft:'40px',marginTop:'37px'}}>
+       <div style={{marginTop:'32px'}}>
         {/*  style={{border:'1px solid blue'}} */}
        <div className='flex items-center'>
         <FaExpand style={{float:'left',fontSize:'14px',marginRight:'6px'}} className="text-blue-500"/>

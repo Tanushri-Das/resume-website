@@ -58,15 +58,13 @@ const LeftSide = ({data}) => {
        </div>
        <div>
         {/* style={{border:'1px solid blue'}} */}
-        <div className='flex items-center' style={{marginTop:'45px'}}>
+        <div className='flex items-center' style={{marginTop:'35px'}}>
         <FaRProject style={{float:'left',fontSize:'14px',marginRight:'6px'}} className="text-blue-500"/>
         <p className='text-blue-500' style={{fontSize:'14px',fontWeight:'600',marginTop:'14px'}}>Projects</p>
         </div>
 
         <div  className="text-left p-3">
-          {/* {
-            data?.data?.projects?.map(project=><Projects project={project}></Projects>)
-          } */}
+          
           <h6 style={{fontSize:'9px',marginBottom:'3px'}} className="font-normal">{project1.createdAt} - {project1.updatedAt}</h6>
           <h6 style={{fontSize:'9px',marginBottom:'3px'}}>{project1.project}</h6>
           <h6 style={{fontSize:'9px',marginBottom:'3px'}} className="font-semibold">{project1.organisation}</h6>
