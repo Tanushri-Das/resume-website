@@ -2,11 +2,10 @@ import React from 'react';
 import { FaGraduationCap, FaRProject, FaShoppingBag, FaUser } from "react-icons/fa";
 import Education from '../Education/Education';
 import Experience from '../Experience/Experience';
-import Projects from '../Projects/Projects';
 
 
 const LeftSide = ({data}) => {
-  console.log(data?.data?.projects[0])
+
   const project1=data?.data?.projects[0];
 
   return (
@@ -15,7 +14,6 @@ const LeftSide = ({data}) => {
         <h1 style={{border:'2px solid blue',borderStyle:'double',width:'140px',fontSize:'20px',fontWeight:'700',padding:'13px 0',marginBottom:'30px',paddingLeft:'22px'}}>{data?.data?.basicinfo?.firstName} {data?.data?.basicinfo?.lastName}</h1>
         </div>
         <div>
-          {/*  style={{border:'1px solid blue'}} */}
         <div className='flex items-center'>
         <FaUser style={{float:'left',fontSize:'14px',marginRight:'6px'}} className="text-blue-500"/>
         <p className='text-blue-500' style={{fontSize:'14px',fontWeight:'600',marginTop:'14px'}}>Resume Objective</p>
@@ -24,13 +22,11 @@ const LeftSide = ({data}) => {
        
        </div>
        <div>
-        {/*  style={{border:'1px solid blue'}} */}
         <div className='flex items-center'>
         <FaShoppingBag style={{float:'left',fontSize:'14px',marginRight:'6px',marginBottom:'4px'}} className="text-blue-500"/>
         <p className='text-blue-500' style={{fontSize:'14px',fontWeight:'600',marginTop:'14px'}}>Working Experience</p>
         </div>
        
-        {/* style={{marginLeft:'20px'}} */}
         <div style={{marginLeft:'20px'}}>
           {
             data?.data?.professionalexperience?.slice(0)
@@ -40,7 +36,7 @@ const LeftSide = ({data}) => {
        
        </div>
        <div className='mt-[24px]'>
-        {/*  style={{border:'1px solid blue'}} */}
+
         <div className='flex items-center'>
         
         <div className='flex items-center'>
@@ -57,7 +53,7 @@ const LeftSide = ({data}) => {
        
        </div>
        <div>
-        {/* style={{border:'1px solid blue'}} */}
+       
         <div className='flex items-center' style={{marginTop:'35px'}}>
         <FaRProject style={{float:'left',fontSize:'14px',marginRight:'6px'}} className="text-blue-500"/>
         <p className='text-blue-500' style={{fontSize:'14px',fontWeight:'600',marginTop:'14px'}}>Projects</p>
