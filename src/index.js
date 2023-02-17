@@ -4,15 +4,16 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "@coreui/coreui/dist/css/coreui.min.css";
-import { PreviewA4 } from "@diagoriente/react-preview-a4";
+// import { PreviewA4 } from "@diagoriente/react-preview-a4";
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <PreviewA4>
+    {/* <PreviewA4>
       <App />
-    </PreviewA4>
+    </PreviewA4> */}
+    <App />
   </React.StrictMode>
 );
 

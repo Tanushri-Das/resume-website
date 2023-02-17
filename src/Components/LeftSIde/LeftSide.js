@@ -12,7 +12,7 @@ const LeftSide = ({data}) => {
   return (
     <div>
         <div style={{marginLeft:'20px'}}>
-        <h1 style={{border:'2px solid blue',borderStyle:'double',width:'140px',fontSize:'20px',fontWeight:'700',padding:'13px 0',marginBottom:'30px'}}>{data?.data?.basicinfo?.firstName} {data?.data?.basicinfo?.lastName}</h1>
+        <h1 style={{border:'2px solid blue',borderStyle:'double',width:'140px',fontSize:'20px',fontWeight:'700',padding:'13px 0',marginBottom:'30px',paddingLeft:'22px'}}>{data?.data?.basicinfo?.firstName} {data?.data?.basicinfo?.lastName}</h1>
         </div>
         <div>
           {/*  style={{border:'1px solid blue'}} */}

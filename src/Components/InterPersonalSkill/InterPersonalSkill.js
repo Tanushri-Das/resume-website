@@ -13,7 +13,7 @@ const InterPersonalSkill = ({interpersonalskill}) => {
       <div className="flex justify-center items-center">
       <h6
         style={{ fontSize: "9px", marginBottom: "3px"}}
-        className="mr-3"
+        className=""
       >
         {interpersonalskill.title}
       </h6>
