@@ -1,12 +1,6 @@
 import React from 'react'
 
 const Education = ({education}) => {
-    
-    const {college} = education;
-    const n = 9
-    const splitOrganisation=college.split("-");
-    const lastElement = splitOrganisation[splitOrganisation.length - 1];
-    console.log(lastElement.slice(lastElement.length - n))
 
   return (
     <div className='text-left mb-3'>

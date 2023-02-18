@@ -5,7 +5,7 @@ import "react-circular-progressbar/dist/styles.css";
 
 const ComputerSkills = ({ skill }) => {
   console.log(skill.value);
-  const percentage = 66;
+
 
   return (
     <div className="mt-1">

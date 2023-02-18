@@ -2,7 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedin, FaSkype } from "react-icons/fa";
 
 const Social = ({ data }) => {
-  console.log(data?.data?.social);
+
   const { github, skype, linkedin } = data?.data?.social;
   return (
     <div className="grid grid-cols-3 ml-10 justify-center items-center mt-[14px] mb-[52px]">
